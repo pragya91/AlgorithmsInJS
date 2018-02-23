@@ -34,7 +34,7 @@
   }
 
   let tree = null;
-  let input = [500 400 300 450 425 475 600 550];
+  let input = [500, 400, 300, 450, 425, 475, 600, 550];
   tree = constructBST(input, 0, input.length-1);
   console.log("total height: "+totalHt);
 
